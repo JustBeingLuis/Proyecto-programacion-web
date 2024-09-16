@@ -1,0 +1,110 @@
+.community.active button {
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 5px var(--secondary-color);
+}
+
+input:focus, 
+textarea:focus, 
+select:focus {
+    outline: none; 
+    box-shadow: none; 
+}
+
+.form-container {
+    margin: 30px 0 0 0;
+    width: 90%; 
+    max-width: 500px; 
+    height: fit-content;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+}
+
+.form-container h1 {
+    font-family: "Cinzel", sans-serif;
+    color: var(--primary-color);
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.form {
+    background-color: var(--background-color);
+    padding: 30px; /* Reducimos el padding para pantallas pequeñas */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cinzel';
+    align-content: center;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 5px 10px var(--text-color);
+    box-sizing: border-box; /* Asegura que el padding no afecte al tamaño del contenedor */
+}
+
+.form label {
+    color: var(--primary-color);
+}
+
+.input-box, .textarea-box, .file-box {
+    margin-bottom: 20px;
+    width: 100%; /* Hacemos que el input ocupe el 100% del ancho */
+}
+
+.input-box, .textarea-box {
+    border: 2px solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--text-color);
+    font-family: sans-serif;
+    padding: 10px; /* Aumentamos el padding para mejor legibilidad */
+    box-sizing: border-box; /* Aseguramos que el padding no desborde el ancho */
+}
+
+.input-box:focus {
+    border: 2px solid rgba(57, 255, 20, 0.8);
+}
+
+.textarea-box {
+    resize: none;
+    height: 200px;
+}
+
+.textarea-box:focus {
+    border: 2px solid rgba(57, 255, 20, 0.8);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-btn {
+    display: inline-block;
+    width: 100%; /* Asegura que el botón ocupe todo el ancho del contenedor */
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media screen and (max-width: 1023px) {
+
+    .form-container{
+        margin-top: 400px;
+        padding-bottom: 80px;
+    }
+    .form {
+        padding: 20px; /* Reducimos el padding para pantallas más pequeñas */
+    }
+
+    .textarea-box {
+        height: 150px; /* Ajustamos la altura del textarea para pantallas pequeñas */
+    }
+}
+
+
+
+
+
