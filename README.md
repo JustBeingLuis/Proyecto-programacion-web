@@ -2,23 +2,29 @@
 
 ![Banner](https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000033131/dbc8c55a21688b446a5c57711b726956483a14ef8c5ddb861f897c0595ccb6b5)
 
-Este proyecto es una página web tipo **wiki** inspirada en el videojuego [HADES](https://www.supergiantgames.com/games/hades/), desarrollada como proyecto final para la materia de Programación en la Web en la UIS (2024-2).
+This project is a **wiki-style** website inspired by the video game [HADES](https://www.supergiantgames.com/games/hades/), developed as the final project for the Web Programming course at the Industrial University of Santander (UIS), academic term 2024-2.
 
-## 🎮 Tema principal
+---
 
-La web está dedicada al universo del juego **HADES**, un aclamado roguelike de acción donde los jugadores asumen el papel de Zagreus, el hijo de Hades, en su intento de escapar del inframundo. La página busca recopilar y organizar información relevante sobre personajes, armas, habilidades, mapas y la comunidad del juego.
+## 🎮 Main Theme
 
-## 🌐 Características principales
+The website is dedicated to the universe of **HADES**, a critically acclaimed action roguelike in which players assume the role of Zagreus, son of Hades, on his quest to escape the Underworld. The site aims to gather and organize relevant information about characters, weapons, abilities, maps, and the player community.
 
-- **Página de inicio:** Presentación del proyecto y del reto de escapar del inframundo.
-- **Sección de personajes:** Galería interactiva con los personajes principales y secundarios del juego.
-- **Armas y habilidades:** Descripción detallada de las armas infernales y sus habilidades especiales.
-- **Mapa del inframundo:** (En desarrollo) Información sobre las diferentes regiones y desafíos del inframundo.
-- **Comunidad:** Formulario para que los usuarios contribuyan con información, imágenes o estrategias.
-- **Diseño responsive:** Adaptado para diferentes dispositivos y tamaños de pantalla.
-- **Estética inspirada en HADES:** Uso de colores, imágenes y tipografías que evocan la atmósfera del juego.
+---
 
-## 📁 Estructura del proyecto
+## 🌐 Key Features
+
+- **Home Page:** Introduction to the project and the challenge of escaping the Underworld.
+- **Characters Section:** Interactive gallery of main and secondary characters.
+- **Weapons and Abilities:** Detailed descriptions of infernal weapons and their special abilities.
+- **Underworld Map:** *(In development)* Overview of the different regions and challenges of the Underworld.
+- **Community Section:** Form that allows users to contribute information, images, or strategies.
+- **Responsive Design:** Adapted for various devices and screen sizes.
+- **HADES-Inspired Aesthetic:** Use of colors, visuals, and fonts that reflect the game's atmosphere.
+
+---
+
+## 📁 Project Structure
 
 ```
 index.html
@@ -36,33 +42,43 @@ html/
     map.html
     weapons_and_abilities.html
 imgs/
-    (Imágenes de personajes, armas, fondos y logo)
+    (Images of characters, weapons, backgrounds, and logo)
 ```
-
-## 🚀 Cómo usar
-
-1. **Clona el repositorio:**
-   ```sh
-   git clone https://github.com/tuusuario/Proyecto-programacion-web.git
-   ```
-2. **Abre el archivo `index.html`** en tu navegador favorito.
-3. **Navega** por las diferentes secciones usando el menú superior.
-
-## 🛠️ Tecnologías utilizadas
-
-- **HTML5** y **CSS3** (sin frameworks)
-- Fuentes de Google Fonts
-- Imágenes y recursos visuales inspirados en el juego HADES
-
-## 🤝 Contribuciones
-
-¿Quieres aportar información, imágenes o estrategias? Ve a la sección **Community** y envía tu contribución usando el formulario.
-
-## 📚 Créditos
-
-- Inspirado en el videojuego [HADES](https://www.supergiantgames.com/games/hades/) de Supergiant Games.
-- Proyecto académico para la Universidad Industrial de Santander (UIS).
 
 ---
 
-¡Gracias por visitar la wiki de Escape from
+## 🚀 How to Use
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/Proyecto-programacion-web.git
+   ```
+
+2. **Open the `index.html` file** in your preferred web browser.
+
+3. **Browse** through the available sections using the top navigation menu.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** and **CSS3** (no frameworks)
+- Google Fonts
+- Visual and graphic resources inspired by the HADES video game
+
+---
+
+## 🤝 Contributions
+
+Want to help improve this project? Visit the **Community** section and submit your contribution using the form provided.
+
+---
+
+## 📚 Credits
+
+- Inspired by the video game [HADES](https://www.supergiantgames.com/games/hades/) by Supergiant Games.
+- Academic project developed for the Industrial University of Santander (UIS), Colombia.
+
+---
+
+Thanks for visiting the **Escape from HADES Wiki Web**!
