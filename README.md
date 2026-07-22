@@ -1,6 +1,7 @@
 # Escape from HADES - Wiki Web
 
 ![Banner](https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000033131/dbc8c55a21688b446a5c57711b726956483a14ef8c5ddb861f897c0595ccb6b5)
+![Banner](banner.png)
 
 This project is a **wiki-style** website inspired by the video game [HADES](https://www.supergiantgames.com/games/hades/), developed as the final project for the Web Programming course at the Industrial University of Santander (UIS), academic term 2024-2.
 
